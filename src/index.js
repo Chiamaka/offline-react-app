@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import registerServiceWorker from './registerServiceWorker';
 import './app.css';
 
 class Index extends Component {
@@ -13,3 +14,4 @@ class Index extends Component {
 }
 
 ReactDOM.render(<Index />, document.getElementById('app'));
+registerServiceWorker();
