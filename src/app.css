@@ -1,0 +1,12 @@
+.box {
+  background-color: brown;
+  height: 200px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: white;
+}
